@@ -3,95 +3,71 @@
   "model": "webapp.poll",
   "pk": 1,
   "fields": {
-    "question": "Scotsman David Danskin and his fellow 15 munitions",
-    "created_at": "2019-10-19T06:36:56.126Z"
-  }
-},
-{
-  "model": "webapp.poll",
-  "pk": 2,
-  "fields": {
-    "question": "1919\u20131953: Bank of England Club",
-    "created_at": "2019-10-19T06:38:54.317Z"
+    "question": "\u043e\u0444\u044b\u0442\u0434\u0432\u0442\u0444\u0434\u044b\u043e\u0442\u0441",
+    "created_at": "2020-08-29T06:55:44.956Z"
   }
 },
 {
   "model": "webapp.poll",
   "pk": 3,
   "fields": {
-    "question": "Championships after the war",
-    "created_at": "2019-10-19T06:39:42.850Z"
+    "question": "ew;'kwef';wk'tpq4kr",
+    "created_at": "2020-08-29T09:14:18.301Z"
   }
 },
 {
   "model": "webapp.poll",
   "pk": 4,
   "fields": {
-    "question": "First Division",
-    "created_at": "2019-10-19T06:41:43.990Z"
+    "question": "mg'lwm'wlm'lm;flw",
+    "created_at": "2020-08-29T09:14:25.381Z"
   }
 },
 {
   "model": "webapp.poll",
   "pk": 5,
   "fields": {
-    "question": "Herbert Chapman",
-    "created_at": "2019-10-19T06:41:53.561Z"
+    "question": "1+1",
+    "created_at": "2020-08-29T09:14:33.708Z"
   }
 },
 {
   "model": "webapp.poll",
   "pk": 6,
   "fields": {
-    "question": "Stadium in Highbury",
-    "created_at": "2019-10-19T06:42:08.797Z"
+    "question": "\u0412\u043e\u043f\u0440\u043e\u0441 13",
+    "created_at": "2020-08-29T09:14:41.353Z"
   }
 },
 {
   "model": "webapp.poll",
   "pk": 7,
   "fields": {
-    "question": "Woolwich Arsenal to The Arsenal",
-    "created_at": "2019-10-19T08:00:50.607Z"
-  }
-},
-{
-  "model": "webapp.poll",
-  "pk": 8,
-  "fields": {
-    "question": "Arsenal",
-    "created_at": "2019-10-19T08:27:48.580Z"
+    "question": "\u0412\u043e\u043f\u0440\u043e\u0441",
+    "created_at": "2020-08-29T09:14:53.804Z"
   }
 },
 {
   "model": "webapp.choice",
   "pk": 1,
   "fields": {
-    "text": "Cliff Bastin and Eddie Hapgood",
-    "poll": 8
-  }
-},
-{
-  "model": "webapp.choice",
-  "pk": 2,
-  "fields": {
-    "text": "Arsenal Football Club is a professional football club",
-    "poll": 2
+    "text": "1231",
+    "poll": 5
   }
 },
 {
   "model": "webapp.choice",
   "pk": 3,
   "fields": {
-    "text": "won the second-most top-flight",
-    "poll": 4
+    "text": "2",
+    "poll": 1
   }
 },
 {
   "model": "webapp.choice",
   "pk": 4,
   "fields": {
-    "text": "In 1886, Woolwich munitions workers founded the club as Dial Square.",
+    "text": "1",
     "poll": 5
   }
 },
@@ -99,39 +75,31 @@
   "model": "webapp.choice",
   "pk": 5,
   "fields": {
-    "text": "Wenger was the longest-serving manager and won",
-    "poll": 3
-  }
-},
-{
-  "model": "webapp.choice",
-  "pk": 6,
-  "fields": {
-    "text": "club in the world, earned \u20ac487.6m in 2016\u201317 season.",
-    "poll": 1
+    "text": "3",
+    "poll": 5
   }
 },
 {
   "model": "webapp.choice",
   "pk": 7,
   "fields": {
-    "text": "First Division football",
-    "poll": 6
+    "text": "\u0427\u0442\u043e-\u0442\u043e",
+    "poll": 7
   }
 },
 {
   "model": "webapp.choice",
   "pk": 8,
   "fields": {
-    "text": "Transformed, Chapman's Arsenal claimed their first national trophy, the FA Cup",
-    "poll": 8
+    "text": "\u0422\u0430\u0442\u0430\u0442\u0430",
+    "poll": 7
   }
 },
 {
   "model": "webapp.choice",
   "pk": 9,
   "fields": {
-    "text": "1953\u20131986: Mediocrity, Mee and Neill",
+    "text": "\u041d\u0430\u043d\u0430",
     "poll": 7
   }
 },
@@ -139,8 +107,40 @@
   "model": "webapp.choice",
   "pk": 10,
   "fields": {
-    "text": "Some Text to test",
-    "poll": 8
+    "text": "\u042d\u0442\u043e",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 11,
+  "fields": {
+    "text": "\u041a\u0430\u043a\u0430 \u041b\u0430\u043a\u0430",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 12,
+  "fields": {
+    "text": "\u041f\u044f\u0442\u043d\u0438\u0446\u0430",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 13,
+  "fields": {
+    "text": "\u0427\u0442\u043e\u0442\u043e\u0442\u043e",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 14,
+  "fields": {
+    "text": "\u041b\u043e\u043b\u043e\u043b\u043e",
+    "poll": 6
   }
 },
 {
@@ -148,8 +148,8 @@
   "pk": 1,
   "fields": {
     "poll": 1,
-    "created_at": "2019-10-19T08:23:15.156Z",
-    "choice": null
+    "created_at": "2020-08-29T07:51:11.281Z",
+    "choice": 4
   }
 },
 {
@@ -157,61 +157,25 @@
   "pk": 2,
   "fields": {
     "poll": 1,
-    "created_at": "2019-10-19T08:24:46.933Z",
-    "choice": null
+    "created_at": "2020-08-29T09:41:26.437Z",
+    "choice": 4
   }
 },
 {
   "model": "webapp.answer",
   "pk": 3,
   "fields": {
-    "poll": 3,
-    "created_at": "2019-10-19T09:20:06.750Z",
-    "choice": null
-  }
-},
-{
-  "model": "webapp.answer",
-  "pk": 4,
-  "fields": {
-    "poll": 8,
-    "created_at": "2019-10-19T09:35:01.627Z",
-    "choice": null
-  }
-},
-{
-  "model": "webapp.answer",
-  "pk": 5,
-  "fields": {
-    "poll": 8,
-    "created_at": "2019-10-19T13:13:30.035Z",
-    "choice": 1
-  }
-},
-{
-  "model": "webapp.answer",
-  "pk": 6,
-  "fields": {
-    "poll": 8,
-    "created_at": "2019-10-19T13:14:02.463Z",
-    "choice": 8
-  }
-},
-{
-  "model": "webapp.answer",
-  "pk": 7,
-  "fields": {
-    "poll": 7,
-    "created_at": "2019-10-19T13:14:47.220Z",
-    "choice": 9
+    "poll": 1,
+    "created_at": "2020-08-29T09:41:40.109Z",
+    "choice": 5
   }
 },
 {
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$150000$jNOV4Sl8EFqE$LSkoO8xrbldXrO0vbgU6BosOmol3NtTyJdBlYtuaiw8=",
-    "last_login": "2019-10-19T05:35:28.554Z",
+    "password": "pbkdf2_sha256$150000$zNFPF9t0pFdL$z58A5ZnG52M7BwRzkUlySbvMIKZZxexnLnNFMtYjHUw=",
+    "last_login": "2020-08-29T07:18:50.412Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -219,7 +183,7 @@
     "email": "",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2019-10-19T05:29:07.769Z",
+    "date_joined": "2020-08-29T07:18:30.347Z",
     "groups": [],
     "user_permissions": []
   }
