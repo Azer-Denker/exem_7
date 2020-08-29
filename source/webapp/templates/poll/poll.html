@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Delete task{% endblock %}
+{% block menu %}
+    <li><a href="{% url 'poll_update' poll.pk %}">Edit</a></li>
+    <li><a href="{% url 'poll_delete' poll.pk %}">Delete</a></li>
+    <li><a href="{% url 'poll_add' %}">Add Poll</a></li>
+
+{% endblock %}
+{% block content %}
+    <h1>{{ poll.question}}</h1>
+        <p><b>Created at: </b>{{ poll.created_at }}</p>
+        <p>
+            <a href="{% url 'index' %}" class="btn btn-default">Home</a>
+        </p>
+    <hr>
+    <h3>Choices: </h3>
+    <hr>
+    <div class="choice-list">
+        {% for choice in poll.polls_choice.all %}
+            <hr>
+            <div class="choice">
+                <p><b>Text: </b>{{ choice.text }}</p>
+                <div class="pre"><b>Poll: </b>{{ choice.poll }}</div>
+                <a href="{% url 'choice_update' choice.pk %}"><i class="fas fa-edit"></i></a>
+                <a href="{% url 'choice_delete' choice.pk %}"><i class="fas fa-trash"></i></a>
+                <a href="{% url 'choice_add' %}"><i class="fas fa-plus-square"></i></a>
+                <li><a href="{% url 'answers_view' poll.pk %}">Answers</a></li>
+            </div>
+            <hr>
+        {% empty %}
+            <p>No polls yet.</p>
+        {% endfor %}
+    </div>
+
+{% endblock %}

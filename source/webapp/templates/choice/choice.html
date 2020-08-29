@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}{{ choice.text }}{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'choice_update' choice.pk %}">Edit</a></li>
+    <li><a href="{% url 'choice_delete' choice.pk %}">Delete</a></li>
+    <li><a href="{% url 'choices_view' %}">Choices</a></li>
+    <li><a href="{% url 'choice_add' %}">Create</a></li>
+{% endblock %}
+
+{% block content %}
+    <h1>{{ choice.text }}</h1>
+        <h3>Polls</h3>
+    <div class="pre"><p><b>{{ choice.poll }}</b></p></div>
+    <hr/>
+    {% if is_paginated %}
+        {% include 'partial/pagination.html' %}
+    {% endif %}
+    {% if is_paginated %}
+        {% include 'partial/pagination.html' %}
+    {% endif %}
+{% endblock %}

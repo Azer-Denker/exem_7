@@ -1,0 +1,227 @@
+[
+{
+  "model": "webapp.poll",
+  "pk": 1,
+  "fields": {
+    "question": "Scotsman David Danskin and his fellow 15 munitions",
+    "created_at": "2019-10-19T06:36:56.126Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 2,
+  "fields": {
+    "question": "1919\u20131953: Bank of England Club",
+    "created_at": "2019-10-19T06:38:54.317Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 3,
+  "fields": {
+    "question": "Championships after the war",
+    "created_at": "2019-10-19T06:39:42.850Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 4,
+  "fields": {
+    "question": "First Division",
+    "created_at": "2019-10-19T06:41:43.990Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 5,
+  "fields": {
+    "question": "Herbert Chapman",
+    "created_at": "2019-10-19T06:41:53.561Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 6,
+  "fields": {
+    "question": "Stadium in Highbury",
+    "created_at": "2019-10-19T06:42:08.797Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 7,
+  "fields": {
+    "question": "Woolwich Arsenal to The Arsenal",
+    "created_at": "2019-10-19T08:00:50.607Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 8,
+  "fields": {
+    "question": "Arsenal",
+    "created_at": "2019-10-19T08:27:48.580Z"
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 1,
+  "fields": {
+    "text": "Cliff Bastin and Eddie Hapgood",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 2,
+  "fields": {
+    "text": "Arsenal Football Club is a professional football club",
+    "poll": 2
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 3,
+  "fields": {
+    "text": "won the second-most top-flight",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 4,
+  "fields": {
+    "text": "In 1886, Woolwich munitions workers founded the club as Dial Square.",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 5,
+  "fields": {
+    "text": "Wenger was the longest-serving manager and won",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 6,
+  "fields": {
+    "text": "club in the world, earned \u20ac487.6m in 2016\u201317 season.",
+    "poll": 1
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 7,
+  "fields": {
+    "text": "First Division football",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 8,
+  "fields": {
+    "text": "Transformed, Chapman's Arsenal claimed their first national trophy, the FA Cup",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 9,
+  "fields": {
+    "text": "1953\u20131986: Mediocrity, Mee and Neill",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 10,
+  "fields": {
+    "text": "Some Text to test",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 1,
+  "fields": {
+    "poll": 1,
+    "created_at": "2019-10-19T08:23:15.156Z",
+    "choice": null
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 2,
+  "fields": {
+    "poll": 1,
+    "created_at": "2019-10-19T08:24:46.933Z",
+    "choice": null
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 3,
+  "fields": {
+    "poll": 3,
+    "created_at": "2019-10-19T09:20:06.750Z",
+    "choice": null
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 4,
+  "fields": {
+    "poll": 8,
+    "created_at": "2019-10-19T09:35:01.627Z",
+    "choice": null
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 5,
+  "fields": {
+    "poll": 8,
+    "created_at": "2019-10-19T13:13:30.035Z",
+    "choice": 1
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 6,
+  "fields": {
+    "poll": 8,
+    "created_at": "2019-10-19T13:14:02.463Z",
+    "choice": 8
+  }
+},
+{
+  "model": "webapp.answer",
+  "pk": 7,
+  "fields": {
+    "poll": 7,
+    "created_at": "2019-10-19T13:14:47.220Z",
+    "choice": 9
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$jNOV4Sl8EFqE$LSkoO8xrbldXrO0vbgU6BosOmol3NtTyJdBlYtuaiw8=",
+    "last_login": "2019-10-19T05:35:28.554Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-10-19T05:29:07.769Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
