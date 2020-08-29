@@ -1,19 +1,16 @@
-from django.db.models import Q
-from django.urls import reverse, reverse_lazy
-from django.utils.http import urlencode
-
-from webapp.forms import ChoiceForm, SimpleSearchForm
-from webapp.models import Choice
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.urls import reverse, reverse_lazy
+
+from webapp.forms import ChoiceForm
+from webapp.models import Choice
 
 
 class ChoiceView(ListView):
     template_name = 'choice/list.html'
     context_object_name = 'choices'
     model = Choice
-    # ordering = ['-created_at']
-    paginate_by = 4
-    paginate_orphans = 1
+    paginate_by = 3
+    paginate_orphans = 0
 
 
 class ChoiceDetailView(DetailView):

@@ -24,7 +24,3 @@ class Answer(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Время создания')
     choice = models.ForeignKey('webapp.Choice', related_name='choices_answer', on_delete=models.PROTECT,
                                null=False, blank=False, verbose_name='Вариант ответа')
-
-
-
-

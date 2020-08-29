@@ -15,8 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from webapp.views import IndexView, PollView, PollCreateView, PollUpdateView, \
-    PollDeleteView, ChoiceView, ChoiceCreateView, ChoiceUpdateView, ChoiceDeleteView, ChoiceDetailView, AnswerView
+from webapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),

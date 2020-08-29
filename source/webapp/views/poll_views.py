@@ -1,10 +1,8 @@
-from django.db.models import Q
-from django.urls import reverse, reverse_lazy
-from django.utils.http import urlencode
-
-from webapp.forms import PollForm, SimpleSearchForm
-from webapp.models import Poll
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.urls import reverse, reverse_lazy
+
+from webapp.forms import PollForm
+from webapp.models import Poll
 
 
 class IndexView(ListView):
@@ -12,10 +10,8 @@ class IndexView(ListView):
     context_object_name = 'polls'
     model = Poll
     ordering = ['-created_at']
-    paginate_by = 5
-    paginate_orphans = 1
-
-
+    paginate_by = 3
+    paginate_orphans = 0
 
 
 class PollView(DetailView):
